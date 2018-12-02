@@ -14,6 +14,13 @@ gulp.task('typography', function() {
 gulp.task('notypography', function() {
     return gulp.src('./src/no-typography.txt')
         .pipe(typograf({
+            disableRules: [
+                'common/space/afterPunctuation',
+                'common/html/escape',
+                'common/punctuation/quote',
+                'ru/money/currency',
+                'ru/other/phone-number'
+            ],
             locale: ['ru', 'en-US'],
             safeTags: [
                 ['<no-typography>','<\/no-typography>']
