@@ -1,0 +1,33 @@
+{
+  "name": "gulp-typograf-test",
+  "version": "1.0.0",
+  "description": "Prepare texts with Typograf using Gulp.",
+  "author": {
+    "name": "Denis Seleznev <hcodes@yandex.ru>"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/typograf/gulp-typograf-test.git"
+  },
+  "keywords": [
+    "gulpplugin",
+    "typograph",
+    "typography",
+    "typograf"
+  ],
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 4.0"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-typograf": "^3.0.6"
+  },
+    "scripts": {
+      "test": "gulp"
+  },
+  "private": true
+}
