@@ -1,9 +1,17 @@
 "Hello"
 
-<notypography>
+<no-typography>
 
 "Hello"
 
-</notypography>
+</no-typography>
+
+"Hello"
+
+<no-typography>
+
+"Hello"
+
+</no-typography>
 
 "Hello"

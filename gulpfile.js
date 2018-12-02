@@ -3,13 +3,23 @@
 const gulp = require('gulp');
 const typograf = require('gulp-typograf');
 
-gulp.task('default', function() {
-    return gulp.src('./src/*.txt')
+gulp.task('typography', function() {
+    return gulp.src('./src/typography.txt')
+        .pipe(typograf({
+            locale: ['ru', 'en-US'],
+        }))
+        .pipe(gulp.dest('./dest'));
+});
+
+gulp.task('notypography', function() {
+    return gulp.src('./src/no-typography.txt')
         .pipe(typograf({
             locale: ['ru', 'en-US'],
             safeTags: [
-                ['<notypography>','</notypography>']
+                ['<no-typography>','<\/no-typography>']
             ]
         }))
         .pipe(gulp.dest('./dest'));
 });
+
+gulp.task('default', gulp.series('typography', 'notypography'));
