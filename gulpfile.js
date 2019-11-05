@@ -6,6 +6,7 @@ const typograf = require('gulp-typograf');
 gulp.task('typography', function() {
     return gulp.src('./src/typography.txt')
         .pipe(typograf({
+            enableRule: ['ru/optalign/*'],
             locale: ['ru', 'en-US'],
         }))
         .pipe(gulp.dest('./dest'));

@@ -1,17 +1,17 @@
-«Hello»
+<span class="typograf-oa-n-lquote">«</span>Hello»
 
 <no-typography>
 
-«Hello»
+<span class="typograf-oa-n-lquote">«</span>Hello»
 
 </no-typography>
 
-«Hello»
+<span class="typograf-oa-n-lquote">«</span>Hello»
 
 <no-typography>
 
-«Hello»
+<span class="typograf-oa-n-lquote">«</span>Hello»
 
 </no-typography>
 
-«Hello»
+<span class="typograf-oa-n-lquote">«</span>Hello»
