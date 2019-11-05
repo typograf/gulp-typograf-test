@@ -23,8 +23,8 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "gulp": "^4.0.0",
-    "gulp-typograf": "^3.0.6"
+    "gulp": "^4.0.2",
+    "gulp-typograf": "^4.0.1"
   },
   "scripts": {
     "test": "gulp"
