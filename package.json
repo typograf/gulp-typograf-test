@@ -24,7 +24,7 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "gulp": "^4.0.2",
-    "gulp-typograf": "^4.0.1"
+    "gulp-typograf": "^4.0.3"
   },
   "scripts": {
     "test": "gulp"
